@@ -7004,3 +7004,104 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2026.03.31-15.24.50:783][986]LogViewport: Scene viewport resized to 3056x1881, mode Windowed.
 [2026.03.31-15.25.15:544][407]LogViewport: Scene viewport resized to 1520x874, mode Windowed.
 [2026.03.31-15.25.16:890][407]LogViewport: Scene viewport resized to 3056x1881, mode Windowed.
+[2026.03.31-15.28.21:081][358]LogDerivedDataCache: C:/Users/Ahmed/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.047 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3935 files in 5518 folders with total size 300 MiB.
+[2026.03.31-15.44.28:806][260]LogViewport: Scene viewport resized to 1520x874, mode Windowed.
+[2026.03.31-15.44.30:652][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.03.31-15.44.30:671][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.03.31-15.44.36:662][346]LogSlate: Window 'Save Content' being destroyed
+[2026.03.31-15.44.36:675][347]LogAutomationController: Ignoring very large delta of 6.05 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.03.31-15.45.53:685][144]LogViewport: Scene viewport resized to 3056x1881, mode Windowed.
+[2026.03.31-15.45.57:889][636]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FPS_Weapon_Bundle/Blueprints/WeaponsPickup/BP_SemiAutoWeaponPickup.BP_SemiAutoWeaponPickup
+[2026.03.31-15.45.57:889][636]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.31-15.45.57:889][636]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.31-15.45.59:884][818]LogSlate: Window 'BP_SemiAutoWeaponPickup' being destroyed
+[2026.03.31-15.45.59:913][818]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2026.03.31-15.45.59:913][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.31-15.46.00:839][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.03.31-15.46.00:861][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.03.31-15.46.03:921][921]LogSlate: Window 'Save Content' being destroyed
+[2026.03.31-15.46.03:954][921]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.31-15.46.03:986][921]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/F8/NXPCWE1CR8FUTO5G6HZ8N5
+[2026.03.31-15.46.03:986][921]LogSavePackage: Moving '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Saved/NXPCWE1CR8FUTO5G6HZ8N57255DE0B45A2A890F87BF4BD59C775E5.tmp' to '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/F8/NXPCWE1CR8FUTO5G6HZ8N5.uasset'
+[2026.03.31-15.46.03:992][921]LogSavePackage: Moving output files for package: /Game/FPS_Weapon_Bundle/Blueprints/WeaponsPickup/BP_AutoWeaponPickup1
+[2026.03.31-15.46.03:992][921]LogSavePackage: Moving '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Saved/BP_AutoWeaponPickup166DD3B9E4652362CACB420A3F14320CD.tmp' to '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FPS_Weapon_Bundle/Blueprints/WeaponsPickup/BP_AutoWeaponPickup1.uasset'
+[2026.03.31-15.46.03:995][921]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/53/7DHYUPZQ4V89LY8XCKXA9A
+[2026.03.31-15.46.03:995][921]LogSavePackage: Moving '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Saved/7DHYUPZQ4V89LY8XCKXA9A6DADB4824F7CD7127A0A6C94AF8F6912.tmp' to '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/53/7DHYUPZQ4V89LY8XCKXA9A.uasset'
+[2026.03.31-15.46.03:998][921]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/YL/BUZUV2QO72539V31UQKLCX
+[2026.03.31-15.46.03:998][921]LogSavePackage: Moving '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Saved/BUZUV2QO72539V31UQKLCXFAF0DEE54D85EC9259410088730BF531.tmp' to '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/YL/BUZUV2QO72539V31UQKLCX.uasset'
+[2026.03.31-15.46.04:000][921]LogSavePackage: Moving output files for package: /Game/CH15/Character/Ch15_nonPBR_Skeleton
+[2026.03.31-15.46.04:000][921]LogSavePackage: Moving '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Saved/Ch15_nonPBR_Skeleton10D2A4D84FC5B257733500B52B5236D3.tmp' to '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_nonPBR_Skeleton.uasset'
+[2026.03.31-15.46.04:001][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CH15/Animations/firing_rifle" FILE="../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/firing_rifle.uasset" SILENT=true
+[2026.03.31-15.46.04:007][921]LogSavePackage: Moving output files for package: /Game/CH15/Animations/firing_rifle
+[2026.03.31-15.46.04:007][921]LogSavePackage: Moving '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Saved/firing_rifleD03016F543BF1BF4BED2118C0B3BAAA2.tmp' to '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/firing_rifle.uasset'
+[2026.03.31-15.46.04:009][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CH15/Animations/reloading" FILE="../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/reloading.uasset" SILENT=true
+[2026.03.31-15.46.04:020][921]LogSavePackage: Moving output files for package: /Game/CH15/Animations/reloading
+[2026.03.31-15.46.04:020][921]LogSavePackage: Moving '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Saved/reloadingE7F964604B7CC38593258C8F12B2D112.tmp' to '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/reloading.uasset'
+[2026.03.31-15.46.04:022][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CH15/Animations/rifle_run" FILE="../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/rifle_run.uasset" SILENT=true
+[2026.03.31-15.46.04:027][921]LogSavePackage: Moving output files for package: /Game/CH15/Animations/rifle_run
+[2026.03.31-15.46.04:027][921]LogSavePackage: Moving '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Saved/rifle_runF691FB6B492BC623FB8E5B87A5EE1983.tmp' to '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/rifle_run.uasset'
+[2026.03.31-15.46.04:028][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CH15/Animations/strafe" FILE="../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/strafe.uasset" SILENT=true
+[2026.03.31-15.46.04:035][921]LogSavePackage: Moving output files for package: /Game/CH15/Animations/strafe
+[2026.03.31-15.46.04:035][921]LogSavePackage: Moving '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Saved/strafe5B816C714EEE4A15DA7365898C2A8910.tmp' to '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/strafe.uasset'
+[2026.03.31-15.46.04:036][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CH15/Animations/strafe__2_" FILE="../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/strafe__2_.uasset" SILENT=true
+[2026.03.31-15.46.04:042][921]LogSavePackage: Moving output files for package: /Game/CH15/Animations/strafe__2_
+[2026.03.31-15.46.04:042][921]LogSavePackage: Moving '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Saved/strafe__2_C1880B2B4C139BE0D08CA6AB45E1B12C.tmp' to '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/strafe__2_.uasset'
+[2026.03.31-15.46.04:044][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CH15/Animations/walking" FILE="../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/walking.uasset" SILENT=true
+[2026.03.31-15.46.04:049][921]LogSavePackage: Moving output files for package: /Game/CH15/Animations/walking
+[2026.03.31-15.46.04:050][921]LogSavePackage: Moving '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Saved/walking68A50DB748EBE45AAF7B14B15F7691E8.tmp' to '../../../../../../Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/walking.uasset'
+[2026.03.31-15.46.04:059][921]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 8.05 sec)
+[2026.03.31-15.46.04:060][921]LogStall: Shutdown...
+[2026.03.31-15.46.04:068][921]LogStall: Shutdown complete.
+[2026.03.31-15.46.04:080][921]LogSlate: Window 'TacFPSAimTrainer - Unreal Editor' being destroyed
+[2026.03.31-15.46.04:216][921]AssetCheck: New page: Asset Save: multiple assets
+[2026.03.31-15.46.04:216][921]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/CH15/Character/Ch15_nonPBR_Skeleton.Ch15_nonPBR_Skeleton
+[2026.03.31-15.46.04:216][921]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CH15/Animations/rifle_run.rifle_run
+[2026.03.31-15.46.04:216][921]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CH15/Animations/reloading.reloading
+[2026.03.31-15.46.04:216][921]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CH15/Animations/firing_rifle.firing_rifle
+[2026.03.31-15.46.04:216][921]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CH15/Animations/walking.walking
+[2026.03.31-15.46.04:217][921]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CH15/Animations/strafe.strafe
+[2026.03.31-15.46.04:217][921]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CH15/Animations/strafe__2_.strafe__2_
+[2026.03.31-15.46.04:217][921]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FPS_Weapon_Bundle/Blueprints/WeaponsPickup/BP_AutoWeaponPickup1.BP_AutoWeaponPickup1
+[2026.03.31-15.46.04:217][921]LogContentValidation: Display: Validating /Game/FPS_Weapon_Bundle/Blueprints/WeaponsPickup/BP_AutoWeaponPickup1.BP_AutoWeaponPickup1_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_AutoWeaponPickup1_C_UAID_10FFE023C7254ECD02_1785137707
+[2026.03.31-15.46.04:217][921]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonCharacter_C_UAID_10FFE023C7254DCD02_1719718530
+[2026.03.31-15.46.04:217][921]LogContentValidation: Display: Validating /Game/FPS_Weapon_Bundle/Blueprints/WeaponsPickup/BP_SemiAutoWeaponPickup.BP_SemiAutoWeaponPickup_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_SemiAutoWeaponPickup_C_UAID_10FFE023C7254BCD02_1538924175
+[2026.03.31-15.46.04:220][921]LogAutomationController: Ignoring very large delta of 3.40 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.03.31-15.46.04:220][922]Cmd: QUIT_EDITOR
+[2026.03.31-15.46.04:220][922]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.03.31-15.46.04:223][922]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.03.31-15.46.04:223][922]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.03.31-15.46.04:223][922]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.03.31-15.46.04:225][922]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.31-15.46.04:225][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.31-15.46.04:225][922]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2026.03.31-15.46.04:226][922]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.03.31-15.46.04:226][922]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.03.31-15.46.05:269][922]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.03.31-15.46.05:270][922]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.03.31-15.46.05:270][922]LogAudio: Display: Audio Device unregistered from world 'FirstPersonMap'.
+[2026.03.31-15.46.05:270][922]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2026.03.31-15.46.05:270][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2026.03.31-15.46.05:272][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2026.03.31-15.46.05:279][922]LogAudio: Display: Audio Device Manager Shutdown
+[2026.03.31-15.46.05:282][922]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.03.31-15.46.05:282][922]LogExit: Preparing to exit.
+[2026.03.31-15.46.05:315][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.03.31-15.46.05:327][922]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:327][922]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.31-15.46.05:328][922]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
