@@ -1,0 +1,40 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_1001_Diffuse.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_1001_Glossiness.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_1001_Normal.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_1001_Specular.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_1002_Diffuse.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_1002_Emissive.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_1002_Glossiness.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_1002_Normal.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_1002_Specular.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_body.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_body1.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_nonPBR.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_nonPBR_PhysicsAsset.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Character/Ch15_nonPBR_Skeleton.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/rifle_aiming_idle.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FPS_Weapon_Bundle/Blueprints/Weapons/BP_BaseWeapon.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FPS_Weapon_Bundle/Blueprints/WeaponsPickup/BP_BaseWeaponPickup.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FPS_Weapon_Bundle/Blueprints/WeaponsPickup/BP_SemiAutoWeaponPickup.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FPS_Weapon_Bundle/Blueprints/WeaponsPickup/BP_AutoWeaponPickup1.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Input/Actions/IA_Interact.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Input/IMC_Default.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FPS_Weapon_Bundle/Interfaces/BPI_Interaction.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FPS_Weapon_Bundle/Blueprints/Weapons/BP_BaseAutoWeapon1.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FPS_Weapon_Bundle/Blueprints/Weapons/BP_BaseSemiAutoWeapon.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/YL/BUZUV2QO72539V31UQKLCX.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/53/7DHYUPZQ4V89LY8XCKXA9A.uasset"
+			]
+		}
+	]
+}
