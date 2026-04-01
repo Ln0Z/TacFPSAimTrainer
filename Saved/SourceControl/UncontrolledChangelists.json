@@ -45,12 +45,20 @@
 				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/Walk_With_Rifle.uasset",
 				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/Blendspaces/BS_Gun_Movement.uasset",
 				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Input/Actions/IA_Shoot.uasset",
-				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset",
-				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset",
-				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset",
 				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Blueprints/WB_HUD.uasset",
 				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Input/IMC_Weapons.uasset",
 				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/CH15/Animations/Unarmed_Idle_01.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/Targets/Blueprints/BP_WallTarget.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/Targets/Meshes/Swat.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/Targets/Animations/gun_Idle.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/Targets/Blueprints/BP_PersonTarget.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/Targets/Blueprints/BP_Target.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/Targets/Blueprints/PersonTarget.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/Targets/Blueprints/BP_PersonTarget.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/WallTarget/Blueprints/BP_WallTarget.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset",
+				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset",
 				"C:/Users/Ahmed/Documents/Unreal Projects/TacFPSAimTrainer/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset"
 			]
 		}
