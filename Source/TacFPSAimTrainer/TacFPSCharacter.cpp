@@ -9,7 +9,8 @@ ATacFPSCharacter::ATacFPSCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 
-	PrimaryActorTick.bCanEverTick = true; bUseControllerRotationYaw = true;
+	PrimaryActorTick.bCanEverTick = true; 
+    bUseControllerRotationYaw = true;
     bUseControllerRotationPitch = false;
     bUseControllerRotationRoll = false;
 
