@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "TacFPSCharacter.h"
+#include "Components/SphereComponent.h"
+#include "Weapons/BaseWeapon.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
@@ -13,7 +14,13 @@ ATacFPSCharacter::ATacFPSCharacter()
     bUseControllerRotationYaw = true;
     bUseControllerRotationPitch = false;
     bUseControllerRotationRoll = false;
+    
 
+    PickupSphere = CreateDefaultSubobject<USphereComponent>(TEXT("PickupSphere"));
+
+    PickupSphere->SetupAttachment(RootComponent);
+
+    PickupSphere->SetSphereRadius(150.0f);
 }
 
 // Called when the game starts or when spawned
@@ -73,6 +80,20 @@ void ATacFPSCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
         this,
         &ACharacter::StopJumping
     );
+
+    PlayerInputComponent->BindAction(
+        "EquipWeapon",
+        IE_Pressed,
+        this,
+        &ATacFPSCharacter::FindWeapon
+    );
+
+    PlayerInputComponent->BindAction(
+        "Fire",
+        IE_Pressed,
+        this,
+        &ATacFPSCharacter::Fire
+    );
 }
 
 void ATacFPSCharacter::MoveRight(float Value)
@@ -130,4 +151,59 @@ void ATacFPSCharacter::Turn(float Value)
 void ATacFPSCharacter::LookUp(float Value)
 {
     AddControllerPitchInput(Value);
+}
+
+void ATacFPSCharacter::FindWeapon() {
+    TArray<AActor*> OverlappingActors;
+
+    PickupSphere->GetOverlappingActors(
+        OverlappingActors,
+        ABaseWeapon::StaticClass()
+    );
+
+    for (AActor* Actor : OverlappingActors) 
+    {
+        ABaseWeapon* Weapon = Cast<ABaseWeapon>(Actor);
+
+        if (Weapon) 
+        {
+            EquipWeapon(Weapon);
+            return;
+        }
+    }
+
+}
+
+void ATacFPSCharacter::EquipWeapon(ABaseWeapon* PickedWeapon) 
+{
+    if (!PickedWeapon) return;
+
+    USkeletalMeshComponent* FirstPersonMesh = Cast<USkeletalMeshComponent>(GetDefaultSubobjectByName(TEXT("FirstPersonSM")));
+
+    CurrentWeapon = PickedWeapon;
+
+    CurrentWeapon->SetWeaponOwner(this);
+    
+    CurrentWeapon->AttachToComponent(
+        GetMesh(),
+        FAttachmentTransformRules::SnapToTargetNotIncludingScale,
+        TEXT("WeaponSocket")
+    );
+
+    CurrentWeapon->AttachToComponent(
+        FirstPersonMesh,
+        FAttachmentTransformRules::SnapToTargetNotIncludingScale,
+        TEXT("WeaponSocket")
+    );
+
+    bHasWeapon = true;
+
+
+}
+
+void ATacFPSCharacter::Fire() {
+    if (!CurrentWeapon) return;
+
+    UE_LOG(LogTemp, Log, TEXT("Weapon Fire begin"));
+    CurrentWeapon->FireWeapon();
 }

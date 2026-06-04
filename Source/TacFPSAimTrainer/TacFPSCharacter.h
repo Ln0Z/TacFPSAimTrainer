@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "TacFPSCharacter.generated.h"
 
+class ABaseWeapon;
+class USphereComponent;
+
 UCLASS()
 class TACFPSAIMTRAINER_API ATacFPSCharacter : public ACharacter
 {
@@ -15,17 +18,18 @@ public:
 	// Sets default values for this character's properties
 	ATacFPSCharacter();
 
+private: 
+	UPROPERTY(VisibleAnywhere)
+	ABaseWeapon* CurrentWeapon;
+
+	UPROPERTY(VisibleAnywhere)
+	USphereComponent* PickupSphere;
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-public:
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement|Air Strafe")
 	float AirStrafeStrength = 120.0f;
 
@@ -35,6 +39,18 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement|Air Strafe")
 	bool bEnableAirStrafe = true;
 
+
+public:
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	bool bHasWeapon = false;
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
 	void MoveRight(float Value);
 
 	void MoveForward(float Value);
@@ -42,5 +58,11 @@ public:
 	void Turn(float Value);
 
 	void LookUp(float Value);
+
+	void FindWeapon();
+
+	void EquipWeapon(ABaseWeapon* PickedWeapon);
+
+	void Fire();
 
 };
