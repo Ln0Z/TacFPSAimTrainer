@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "BaseWeapon.h"
-#include "../TacFPSCharacter.h"
+#include "../Characters/TacFPSCharacter.h"
+#include "../Targets/BaseTarget.h"
 #include "Camera/CameraComponent.h"
 
 // Sets default values
@@ -30,6 +31,11 @@ void ABaseWeapon::SetWeaponOwner(ATacFPSCharacter* actor) {
 	WeaponOwner = actor;
 }
 
+ATacFPSCharacter* ABaseWeapon::GetWeaponOwner()
+{
+	return this->WeaponOwner;
+}
+
 void ABaseWeapon::FireWeapon() {
 
 	if (!this) return;
@@ -51,19 +57,47 @@ void ABaseWeapon::CreateLineTrace() {
 
 	if (!cam) return;
 
-	FVector startP = cam->GetComponentLocation();
-	FVector dir = cam->GetForwardVector();
+	FVector StartP = cam->GetComponentLocation();
+	FVector Dir = cam->GetForwardVector();
 
-	FVector endP = (this->range * dir) + startP;
+	FVector EndP = (this->Range * Dir) + StartP;
+
+	FCollisionQueryParams Params;
+
+	Params.AddIgnoredActor(this);
+	Params.AddIgnoredActor(this->GetWeaponOwner());
 
 	DrawDebugLine(
 		GetWorld(),
-		startP,
-		endP,
+		StartP,
+		EndP,
 		FColor::Green,
 		false,
 		2.0f
 	);
 
+	TArray<FHitResult> Hits;
+
+	bool bHit = GetWorld()->LineTraceMultiByChannel(
+		Hits,
+		StartP,
+		EndP,
+		ECC_Visibility,
+		Params
+	);
+
+	if (bHit)
+	{
+		for(FHitResult& Hit : Hits)
+		{
+			AActor* HitActor = Hit.GetActor();
+
+			ABaseTarget* actor = Cast<ABaseTarget>(HitActor);
+
+			if (actor) {
+				actor->Destroy();
+			}
+		}
+	}
 
 }

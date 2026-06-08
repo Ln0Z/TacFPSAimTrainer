@@ -2,7 +2,7 @@
 
 #include "TacFPSCharacter.h"
 #include "Components/SphereComponent.h"
-#include "Weapons/BaseWeapon.h"
+#include "../Weapons/BaseWeapon.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
@@ -184,12 +184,6 @@ void ATacFPSCharacter::EquipWeapon(ABaseWeapon* PickedWeapon)
 
     CurrentWeapon->SetWeaponOwner(this);
     
-    CurrentWeapon->AttachToComponent(
-        GetMesh(),
-        FAttachmentTransformRules::SnapToTargetNotIncludingScale,
-        TEXT("WeaponSocket")
-    );
-
     CurrentWeapon->AttachToComponent(
         FirstPersonMesh,
         FAttachmentTransformRules::SnapToTargetNotIncludingScale,

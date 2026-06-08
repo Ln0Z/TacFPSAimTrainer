@@ -26,7 +26,7 @@ protected:
 	virtual void BeginPlay() override;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float range = 2000.0f;
+	float Range = 2000.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool CanShoot = true;
@@ -39,6 +39,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	void SetWeaponOwner(ATacFPSCharacter* actor);
+	ATacFPSCharacter* GetWeaponOwner();
 
 	void FireWeapon();
 	void CreateLineTrace();
